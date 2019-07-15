@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button default 1`] = `
+<button
+  class="button button-undefined button-normal"
+>
+  <span>
+    default
+  </span>
+</button>
+`;
