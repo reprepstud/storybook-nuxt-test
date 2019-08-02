@@ -1,5 +1,5 @@
 import { storiesOf } from '@storybook/vue'
-import Button from 'C:/Source/Repos/test-storybook/components/Buttons'
+import Button from '@/components/Buttons'
 
 storiesOf('Button', module)
   .add('default', () => ({
