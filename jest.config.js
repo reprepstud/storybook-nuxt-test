@@ -11,7 +11,7 @@ module.exports = {
     '.*\\.(vue)$': '<rootDir>/node_modules/jest-vue-preprocessor',
   },
   transformIgnorePatterns: [
-    '/node_modules/(?!(@storybook/.*\\.vue$))',
+    '/node_modules/(?!(@storybook/.*\\.vue$|storybook-addon-vue-info))'
   ],
   setupFiles: ['<rootDir>/.jest/register-context.js']
 };
